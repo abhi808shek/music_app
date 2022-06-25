@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+.navbars{
+    height:5rem;
+    background: #151414;
+}
+
+
+.btn-style{
+    width: 6rem;
+    height: 2rem;
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0;
+}
+.btn-style:hover{
+   border: rgb(0, 255, 76);
+   font-weight: 800;
+}
