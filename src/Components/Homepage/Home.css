@@ -30,6 +30,7 @@ img{
 .navbar {
     width: 100%;
     margin-top: 2rem;
+    margin-left: 1rem;
 }
 
 .nav {
@@ -300,8 +301,8 @@ h1 {
     }
 
     .logo {
-        width: 70%;
-        height: 15%;
+        width: 50%;
+        height: 12%;
     }
 
     .nav {
