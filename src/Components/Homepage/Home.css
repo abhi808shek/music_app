@@ -327,15 +327,16 @@ h1 {
     }
 
     .heading1 {
-        height: 10%;
+        height: 4%;
     }
 
     h1 {
-        font-size: .7rem!important;
+        font-size: .8rem!important;
     }
 
     .para1 {
         font-size: .6rem;
+        margin-bottom: .5rem;
     }
 
     .container4 {
