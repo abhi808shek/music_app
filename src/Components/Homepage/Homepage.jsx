@@ -1,6 +1,7 @@
 import React from 'react'
 import Ellipse39 from "./Ellipse39.png"
 import Vector from "./Vector.png"
+import Vector2 from "./Vector2.png"
 import searchwhite1 from "./searchwhite1.png"
 import musicalbum1 from "./musicalbum1.png"
 import Home from "./Home.css"
@@ -14,19 +15,19 @@ function Homepage() {
             <div className="navbar">
                 <div className="nav">
                     <img src={Vector} alt="" className="icon"/>
-                    <h2 className="head">Home</h2>
+                    <h2 className="head1">Home</h2>
                 </div>
                 <div className="nav">
                     <img src={searchwhite1} alt="" className="icon"/>
-                    <h2 className="head">Search</h2>
+                    <h2 className="head1">Search</h2>
                 </div>
                 <div className="nav">
                     <img src={musicalbum1} alt="" className="icon"/>
-                    <h2 className="head">Album</h2>
+                    <h2 className="head1">Album</h2>
                 </div>
                 <div className="nav">
-                    <img src="Vector2.png" alt="" className="icon"/>
-                    <h2 className="head">Liked songs</h2>
+                    <img src={Vector2} alt="" className="icon"/>
+                    <h2 className="head1">Liked songs</h2>
                 </div>
             </div>
         </div>
