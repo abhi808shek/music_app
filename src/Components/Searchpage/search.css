@@ -1,332 +1,358 @@
+.container {
+    display: none;
+}
+
 .search_container {
-    display: flex;
     width: 100%;
 }
 
 .search_container1 {
-    border: 2px solid black;
+    /* border: 2px solid red; */
+    background: linear-gradient(180deg, #000000 91.15%, #000613 100%);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    top: 0px;
+}
+
+.head1 {
+    /* border: 2px solid red; */
+    color: white;
+    width: 10%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.search_container2 {
+    /* border: 2px solid red; */
+    height: 90vh;
+    display: flex;
+}
+
+.search_container3 {
+    /* border: 2px solid rgb(1, 251, 96); */
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 20%;
-    height: 100vh;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
+    height: 150vh;
 }
 
-.search_logo {
-    margin-top: 2rem;
+.logo {
+    margin: 1rem 0rem;
     width: 40%;
+    height: 10%;
 }
 
-.search_navbar {
-    /* border: 2px solid red; */
+.navbar {
     width: 100%;
     margin-top: 2rem;
-
+    /* margin-left: 1rem; */
 }
 
-.search_nav {
-    /* border: 2px solid blue; */
+.nav {
+    /* border: 2px solid rgb(171, 9, 92); */
+    display: flex;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.icon1 {
+    /* border: 2px solid red; */
+    margin-right: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
 }
 
-.search_icon {
-    /* border: 2px solid yellow; */
-    margin-right: 1.5rem;
+img {
+    width: unset;
+    height: unset;
 }
 
-.search_text {
-    /* border: 2px solid white; */
+.head2 {
+    /* border: 2px solid blanchedalmond; */
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
-    width: 50%;
-}
-
-.search_text:hover {
-    cursor: pointer;
-}
-
-.search_container2 {
-    /* border: 2px solid black; */
-    height: 10vh;
-    width: 80%;
-}
-
-.search_container3 {
-    /* border: 2px solid black; */
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 10vh;
-    padding-right: 3rem;
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-}
-
-.search_btn1 {
-    border: none;
-    background-color: black;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    margin: 0rem 1rem;
-    width: 10%;
-}
-
-.search_btn1:hover {
-    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0rem;
 }
 
 .search_container4 {
+    /* border: 2px solid rgb(255, 255, 0); */
     background: linear-gradient(180deg, #062953 60.42%, #000000 91.15%);
-    position: relative;
-    top: 60px;
-    left: 252px;
-    z-index: -1;
-    margin-bottom: 2rem;
+    width: 80%;
+    height: 150vh;
 }
 
 .search_container5 {
-    /* border: 2px solid red; */
-    height: 35vh;
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    height: 40vh;
 }
 
-.search_heading {
-    font-family: 'Poppins', sans-serif;
+.head3 {
     color: white;
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
 }
 
 .search_container6 {
-    /* border: 2px solid blue; */
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1rem;
+    width: 100%;
 }
 
-.search_inputbox {
+.input {
     border: none;
     background: #000000;
-    color: #787272;
-    background-image: url("./searchwhite2.png");
-    background-repeat: no-repeat;
     width: 50%;
     height: 7vh;
-    padding: 0rem 4rem;
-    background-position: 1rem;
-    background-size: 1.5rem;
+    padding: 0rem 1rem;
 }
 
-.search_audio {
+.icon2 {
     width: 5%;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .search_container7 {
-    /* border: 2px solid red; */
+    /* border: 2px solid pink; */
+    padding: 0rem 1rem;
+}
+
+.search_container8 {
+    /* border: 2px solid yellow; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0rem 2rem;
-    margin-top: 3rem;
+    margin: 1rem 0rem;
 }
 
-.search_heading2 {
-    font-family: 'Poppins', sans-serif;
+.head4 {
     color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
 }
 
-.search_text2 {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #787272;
+.head5 {
     font-family: 'Poppins', sans-serif;
     font-size: .9rem;
+    font-weight: 400;
+    color: #787272;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.search_cards {
-    /* border: 2px solid red; */
+.search_container9 {
+    /* border: 2px solid white; */
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
+    width: 100%;
 }
 
-.search_card {
-    width: 18%;
-    height: 30vh;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    background-position: center;
-    background-size: cover;
+.box {
+    /* border: 2px solid yellow; */
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    width: 100%;
+    height: 30vh;
 }
 
-.search_card1 {
-    background-image: url("./Rectangle63.png");
-    background-repeat: no-repeat;
-}
-
-.search_card2 {
-    background-image: url("./Rectangle64.png");
-    background-repeat: no-repeat;
-}
-
-.search_card3 {
-    background-repeat: no-repeat;
-    background-image: url("./Rectangle65.png");
-}
-
-.search_card4 {
-    background-repeat: no-repeat;
-    background-image: url("./Rectangle66.png");
-}
-
-.search_card5 {
-    background-repeat: no-repeat;
-    background-image: url("./Rectangle67.png");
-}
-
-.search_title2 {
+.head6 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
-.search_card6 {
+.box1 {
+    background-image: url("./Rectangle63.png");
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: 10rem;
+}
+
+.box2 {
+    background-image: url("./Rectangle64.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10rem;
+}
+
+.box3 {
+    background-image: url("./Rectangle65.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10rem;
+}
+
+.box4 {
+    background-image: url("./Rectangle66.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10rem;
+}
+
+.box5 {
+    background-image: url("./Rectangle67.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10rem;
+}
+
+.box6 {
     background-image: url("./Rectangle68.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10rem;
 }
 
-.search_card7 {
-    background-repeat: no-repeat;
+.box7 {
     background-image: url("./Rectangle69.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10rem;
 }
 
-.search_card8 {
-    background-repeat: no-repeat;
+.box8 {
     background-image: url("./Rectangle70.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10rem;
 }
 
-.search_card9 {
-    background-repeat: no-repeat;
+.box9 {
     background-image: url("./Rectangle71.png");
-}
-
-.search_card10 {
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: 10rem;
+}
+
+.box10 {
     background-image: url("./Rectangle72.png");
-}
-
-@media screen and (max-width:2560px) {
-    .search_container4 {
-        left: 512px;
-    }
-}
-
-@media screen and (max-width:1440px) {
-    .search_container4 {
-        left: 18rem;
-    }
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10rem;
 }
 
 @media screen and (max-width:1024px) {
-    .search_container1 {
-        top: 40px;
+    .box {
+        background-size: 8rem;
     }
 
-    .search_container4 {
-        top: 40px;
-        left: 12.8rem;
+    .head6 {
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width:768px) {
-    .search_container4 {
-        left: 154px;
+    .head1 {
+        width: 20%;
+    }
+
+    .head2 {
+        font-size: .8rem;
+    }
+
+    .box {
+        background-size: 7rem;
+        height: 20vh;
     }
 }
 
 @media screen and (max-width:480px) {
-    .search_btn1 {
-        width: 20%;
+    .head1 {
+        font-size: 1rem;
     }
 
-    .search_container1 {
+    .logo {
+        margin: 1rem 0rem;
+        width: 40%;
+        height: 5%;
+    }
+
+    .head1 {
+        width: 35%;
+    }
+
+
+    .head1 {
+        font-size: 1.2rem !important;
+    }
+
+    .head2 {
+        font-size: 0.6rem !important;
+    }
+
+    .head3 {
+        font-size: 2rem !important;
+    }
+
+    .search_container3 {
         width: 30%;
+        height: 190vh;
     }
 
-    .search_icon {
-        width: 15%;
-    }
-
-    .search_text {
-        font-size: .9rem;
+    .icon1 {
+        margin-right: .5rem;
+        width: 60%;
     }
 
     .search_container4 {
-        left: 94px;
-        width: 88%;
+        width: 70%;
+        height: 190vh;
     }
 
-    .search_icon {
-        margin-right: 0.5rem;
-    }
-
-    .search_heading {
+    .head3 {
         font-size: 2rem;
     }
 
-    .search_inputbox {
-        padding: 0rem 2rem;
-        background-position: 1rem;
-        background-size: 1rem;
-        width: 75%;
+    .input {
+        width: 60%;
     }
 
-    .search_audio {
-        width: 14%;
-        margin-left: 0.5rem;
+    .icon2 {
+        width: 12%;
     }
 
-    .search_container7 {
-        padding: 0rem 1rem;
-        margin-top: 1rem;
+    .head4 {
+        font-size: 1.5rem!important;
     }
 
-    .search_cards {
+    .head5 {
+        font-size: .7rem!important;
+    }
+    .head6 {
+        font-size: .9rem!important;
+        text-align: center;
+    }
+
+    .search_container9 {
         flex-wrap: wrap;
     }
 
-    .search_card {
+    .box {
+        background-size: 8rem;
+        height: 30vh;
         width: 45%;
-        margin: 1rem 0rem;
     }
 
-    .search_card5 {
-        display: none;
-    }
-
-    .search_heading2 {
-        font-size: 1.5rem;
-    }
-    .search_card10{
+    .box5,
+    .box10 {
         display: none;
     }
 }
