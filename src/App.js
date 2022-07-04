@@ -6,8 +6,8 @@ function App() {
   return (
   <>
       <Navbar />
-    <Sidebar /> 
-    <Footer />
+    {/* <Sidebar /> 
+    <Footer /> */}
 </>
    
     
