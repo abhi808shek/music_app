@@ -1,0 +1,198 @@
+.navbars {
+    display: none!important;
+}
+.sidebar {
+    display: none!important;
+}
+.footer{
+    display: none;
+}
+.container{
+    max-width: unset;
+    padding-right: unset;
+    padding-left: unset;
+}
+.container1 {
+    background-image: url("./image/image015.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+.container2 {
+    background: linear-gradient(180deg, #000000 0%, #000000 54.17%, #062953 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+
+h1 {
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    border: none;
+    background: #4267B2;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    width: 627px;
+    height: 59px;
+}
+
+.btn2 {
+    background: white;
+    color: black;
+}
+
+img {
+    width: 44px;
+    height: 39px;
+    margin-left: 1.5rem;
+    margin-right: 6rem;
+}
+@media screen and (max-width:1024px) {
+    .head{
+        font-size: 50px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .btn1{
+        width: 300px;
+        height: 34px;
+        font-size: 10px;
+    }
+    img{
+        width: 21px;
+        height: 20px;
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width:768px){
+    .head{
+        font-size: 40px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    .btn1{
+        width: 254px;
+        height: 34px;
+        font-size: 10px;
+    }
+    img{
+        width: 21px;
+        height: 20px;
+        margin-left: 1rem;
+        margin-right: 1.5rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background-image: url("./image/image012.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .head {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .container2 {
+        background: linear-gradient(180deg, #000000 52.6%, #022247 100%);
+        border-radius: 40px 40px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        height: 70vh;
+        position: absolute;
+        width: 100%;
+        top: 380px;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 21px;
+    }
+
+    .btn1 {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        /* justify-content: space-evenly; */
+        border: none;
+        background: #4267B2;
+        color: white;
+        border-radius: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        text-align: center;
+        width: 254px;
+        height: 34px;
+    }
+
+    .btn2 {
+        background: white;
+        color: black;
+    }
+
+    img {
+        width: 21px;
+        height: 20px;
+        margin-left: 1rem;
+        margin-right: 1.5rem;
+    }
+}

@@ -22,3 +22,43 @@
    border: rgb(0, 255, 76);
    font-weight: 800;
 }
+@media screen and (max-width:1024px) {
+    .navbars{
+        height: 4rem;
+    }
+    .profileItemText{
+        font-size: 15px!important;
+    }
+    img{
+        width: 40%;
+    }
+    .w-50{
+        width: 45%!important;
+    }
+}
+@media screen and (max-width:768px) {
+    .sidebar{
+        width: 30%!important;
+    }
+    .btn-style{
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width:480px) {
+    .w-25{
+        width: 40%!important;
+    }
+    .btn-style{
+        font-size: .7rem;
+    }
+    .profileIcon{
+        width: 70px!important;
+        height: 70px!important;
+    }
+    .sidebar{
+        width: 50%!important;
+    }
+    .profileItemText{
+        font-size: 11px!important;
+    }
+}
