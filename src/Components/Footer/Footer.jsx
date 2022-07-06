@@ -2,7 +2,7 @@ import React from 'react'
 import image7 from './image7.png'
 import pause1 from './pause1.png'
 import heart3 from './heart3.png'
-import footer from './footer.css'
+import Foot from './Foot.css'
 
 const Footer = () => {
   return (
