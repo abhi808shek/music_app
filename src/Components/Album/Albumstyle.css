@@ -24,6 +24,9 @@
 .album-container2 {
     /* border: 2px solid rgb(37, 37, 37); */
     padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
 }
 
 .album-card-container {
@@ -54,4 +57,39 @@
     font-size: 20px;
     color: #787272;
     text-align: center;
+}
+
+@media screen and (max-width:540px) {
+    .album-heading {
+        font-size: 20px;
+    }
+
+    .album-card-container {
+        display: flex;
+    }
+    .album-container2 {
+        padding: 0px 15px;
+    }
+
+    .album-img {
+        width: 63px;
+        height: 63px;
+    }
+    .album-card-container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .album-head {
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: unset;
+    }
+
+    .album-txt {
+        font-weight: 500;
+        font-size: 12px;
+    }
 }
