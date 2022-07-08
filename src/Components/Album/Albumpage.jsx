@@ -4,7 +4,7 @@ import './Albumstyle.css'
 import Rectangle74 from './Rectangle74.png'
 
 const Album = () => {
-  const items = [1,2,3,4,5,6,7]
+  const items = [1,2,3,4,5,6,7,8]
   return (
     <>
       <div className="album-container">
