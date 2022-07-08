@@ -22,7 +22,8 @@ const Content = () => {
           {/* <Routes>
             <Route exact path="/content/likedpage" element={<Likedpage />} />
           </Routes> */}
-          <Albumpage />
+          {/* <Albumpage /> */}
+          <Likedpage />
         </div>
       </div>
     </>
