@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
 .content2-box {
     /* border: 2px solid red; */
     background: linear-gradient(180deg, #062953 60.42%, #000000 91.15%);
@@ -14,4 +16,12 @@
     background-color: rgb(83, 44, 44);
     width: 80%;
     height: 80vh;
+}
+@media screen and (max-width:540px) {
+    .sidebar{
+        width: 35%;
+    }
+    .album{
+        width: 65%;
+    }
 }

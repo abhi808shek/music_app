@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
 .liked-img-container1 {
     /* border: 2px solid yellow; */
     width: 72px;
@@ -46,6 +48,10 @@
 .liked-like-icon {
     width: 30px;
     height: 30px;
+}
+.liked-card-container{
+    display: flex;
+    margin: 10px 0px;
 }
 
 
