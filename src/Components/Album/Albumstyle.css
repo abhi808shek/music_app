@@ -1,3 +1,10 @@
+
+.album{
+    background-color: blue;
+    width: 80%;
+    height: 80vh;
+}
+
 .album-container {
     background-color: rgb(48, 47, 49);
     width: 100%;
@@ -28,7 +35,6 @@
     align-items: center;
     /* justify-content: space-evenly; */
 }
-
 
 
 @media screen and (max-width:540px) {

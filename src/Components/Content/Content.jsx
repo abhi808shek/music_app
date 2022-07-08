@@ -15,16 +15,13 @@ const Content = () => {
         <div className="sidebar">
           <Sidebar />
         </div>
-        <div className="album">
-          {/* <Routes>
-            <Route exact path="/content/album" element={<Albumpage />} />
-          </Routes>
+        
           <Routes>
-            <Route exact path="/content/likedpage" element={<Likedpage />} />
-          </Routes> */}
+          
+          </Routes>
           {/* <Albumpage /> */}
-          <Likedpage />
-        </div>
+          {/* <Likedpage /> */}
+        
       </div>
     </>
   );

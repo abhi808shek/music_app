@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.sidebar{
+  background-color: red;
+  width: 20%;
+  height: 80vh;
+}
+
+.Likedpage{
+  background-color: rgb(83, 44, 44);
+  width: 80%;
+  height: 80vh;
+}
