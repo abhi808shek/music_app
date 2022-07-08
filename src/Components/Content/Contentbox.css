@@ -2,7 +2,7 @@
     /* border: 2px solid red; */
     background: linear-gradient(180deg, #062953 60.42%, #000000 91.15%);
     width: 100%;
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
 }
 .sidebar{
@@ -11,7 +11,8 @@
     height: 80vh;
 }
 .album{
-    background-color: blue;
+    background-color: rgb(44, 44, 55);
     width: 80%;
-    height: 80vh;
+    padding-bottom: 5rem;
+    /* height: 80vh; */
 }
