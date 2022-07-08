@@ -38,4 +38,7 @@
     .album-heading {
         font-size: 20px;
     }
+    .album-container2 {
+        padding: unset;
+    }
 }

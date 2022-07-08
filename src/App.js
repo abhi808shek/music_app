@@ -14,9 +14,9 @@ function App() {
 <Routes>
   <Route exact path="/content" element={<Content />}/>
 </Routes>
-      {/* <Sidebar /> */}
+      <Sidebar />
       <Content />
-      
+      {/* <Content2 /> */}
       <Footer />
       {/* <Albumpage /> */}
     </>

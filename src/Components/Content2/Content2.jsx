@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../Sidebar/Sidebar'
 import Likedpage from '../Likedpage/Likedpage'
+// import Albumpage from './Album/Albumpage'
 import Footer from '../Footer/Footer'
 import "./Contentbox2.css"
 

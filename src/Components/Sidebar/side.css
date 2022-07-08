@@ -86,7 +86,7 @@ p {
 }
 @media screen and (max-width:540px) {
     .sidebar-container {
-        width: 30%;
+        width: 35%;
     }
     .sidebar-img {
         height: 12vh;

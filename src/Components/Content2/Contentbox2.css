@@ -9,11 +9,19 @@
 }
 .sidebar{
     background-color: blue;
-    width: 30%;
+    width: 20%;
     height: 80vh;
 }
 .Likedpage{
     background-color: rgb(83, 44, 44);
     width: 80%;
     height: 80vh;
+}
+@media screen and (max-width:540px) {
+    .sidebar{
+        width: 35%;
+    }
+    .album{
+        width: 65%;
+    }
 }
