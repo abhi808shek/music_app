@@ -1,6 +1,7 @@
 .album-card-container {
     /* border: 2px solid black; */
     width: 165px;
+    margin-bottom: 3rem;
 }
 
 .album-img {
@@ -27,7 +28,11 @@
     color: #787272;
     text-align: center;
 }
-
+@media screen and (max-width:768px) {
+    .album-card-container {
+        width: 172px;
+    }
+}
 @media screen and (max-width:540px) {
     .album-heading {
         font-size: 20px;

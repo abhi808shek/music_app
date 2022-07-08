@@ -16,10 +16,10 @@ const Content = () => {
           <Sidebar />
         </div>
         <div className="album">
-          {/* <Routes>
+          <Routes>
             <Route exact path="/content/album" element={<Albumpage />} />
           </Routes>
-          <Routes>
+          {/* <Routes>
             <Route exact path="/content/likedpage" element={<Likedpage />} />
           </Routes> */}
           <Albumpage />
