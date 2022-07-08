@@ -3,7 +3,7 @@ import Ellipse39 from './Ellipse39.png'
 import Vector from './Vector.png'
 import musicalbum1 from './musicalbum1.png'
 import Vector1 from './Vector1.png'
-import Side from './Side.css'
+import "./side.css"
 
 const Sidebar = () => {
     return (

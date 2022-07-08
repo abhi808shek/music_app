@@ -1,8 +1,10 @@
 import React from 'react'
+import AlbumCard from './AlbumCards/AlbumCard'
 import './Albumstyle.css'
 import Rectangle74 from './Rectangle74.png'
 
 const Album = () => {
+  const items = [1,2,3,4,5,6,7]
   return (
     <>
       <div className="album-container">
@@ -10,13 +12,7 @@ const Album = () => {
           <h1 className="album-heading">Your Albums</h1>
         </div>
         <div className="album-container2">
-          <div className="album-card-container">
-            <img src={Rectangle74} alt="" className="album-img" />
-            <div className="album-card-container1">
-              <h1 className="album-head">Album 1</h1>
-              <p className="album-txt">By.Creator</p>
-            </div>
-          </div>
+      {items.map((albumCards)=><AlbumCard Rectangle74={Rectangle74}/>)}
         </div>
       </div>
     </>

@@ -5,15 +5,18 @@ import Albumpage from './Components/Album/Albumpage';
 import Likedpage from './Components/Likedpage/Likedpage';
 import Content from './Components/Content/Content';
 import Content2 from './Components/Content2/Content2';
-
+import {Routes, Route} from "react-router-dom"
 
 function App() {
   return (
     <>
       <Navbar />
+<Routes>
+  <Route exact path="/content" element={<Content />}/>
+</Routes>
       {/* <Sidebar /> */}
       {/* <Content /> */}
-      <Content2 />
+      
       <Footer />
       {/* <Albumpage /> */}
     </>
