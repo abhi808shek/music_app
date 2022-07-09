@@ -15,12 +15,12 @@ function App() {
       </div>
       <div>
         <Routes>
-          {/* <Route exact path="/" element={<Homepage />} /> */}
+          <Route exact path="/" element={<Homepage />} />
           <Route exact path="/album" element={<Albumpage />} />
           <Route exact path="/likedpage" element={<Likedpage />} />
         </Routes>
       </div>
-      <Homepage />
+      {/* <Homepage /> */}
       <Footer />
     </>
   );
