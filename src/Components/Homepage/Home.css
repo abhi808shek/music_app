@@ -2,6 +2,7 @@
     /* border: 2px solid red; */
     background-color: rgb(48, 47, 49);
     width: 80%;
+    height: 80vh;
     margin-left: auto;
     padding-left: 50px;
     padding-right: 50px;
@@ -34,12 +35,13 @@
     border-radius: 14px;
     background-image: url('./Rectangle9.png');
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width: 191px;
-    height: 269px;
+    width: 210px;
+    height: 220px;
 }
 
 .home-title {

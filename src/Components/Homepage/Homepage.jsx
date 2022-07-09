@@ -19,7 +19,7 @@ const Homepage = () => {
                     <div className="home-container2">
                         <h1 className="home-heading">Today’s Hit</h1>
                     </div>
-                    <div className="home-card-container2">
+                    <div className="home-card-container1">
                         <h1 className="home-title">Zayn Malik</h1>
                         <p className="home-txt">Like You Have Never Felt Before</p>
                     </div>
