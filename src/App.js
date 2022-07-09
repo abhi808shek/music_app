@@ -4,6 +4,7 @@ import Footer from "./Components/Footer/Footer";
 import Albumpage from "./Components/Album/Albumpage";
 import Likedpage from "./Components/Likedpage/Likedpage";
 import Homepage from "./Components/Homepage/Homepage";
+import Loginpage from "./Components/Loginpage/Loginpage";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       <div>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
+          <Route exact path="/loginpage" element={<Loginpage />} />
+          <Route exact path="/Loginpage" element={<Loginpage />} />
           <Route exact path="/album" element={<Albumpage />} />
           <Route exact path="/likedpage" element={<Likedpage />} />
         </Routes>
