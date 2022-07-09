@@ -1,7 +1,9 @@
 import React from 'react'
 import './Home.css'
+import HomePageCard from './HomePageCard/HomePageCard'
 
 const Homepage = () => {
+    const items = [1,2,3,4,5]
     return (
         <>
             <div className="home-container">
@@ -9,20 +11,13 @@ const Homepage = () => {
                     <div className="home-container2">
                         <h1 className="home-heading">Made  For You</h1>
                     </div>
-                    <div className="home-card-container1">
-                        <h1 className="home-title">Daily Mix 1</h1>
-                        <p className="home-txt">Shreya Ghoshal, Lata Mangeshkar,
-                            Asha Bhoshle, Udit Narayan...</p>
-                    </div>
+                   {items.map((items)=><HomePageCard />)} 
                 </div>
                 <div className="home-container1">
                     <div className="home-container2">
                         <h1 className="home-heading">Today’s Hit</h1>
                     </div>
-                    <div className="home-card-container1">
-                        <h1 className="home-title">Zayn Malik</h1>
-                        <p className="home-txt">Like You Have Never Felt Before</p>
-                    </div>
+                    {items.map((items)=><HomePageCard />)} 
                 </div>
             </div>
         </>

@@ -14,7 +14,7 @@
 
 .navbar-btn {
     border: none;
-    width: 120px;
+    width: 125px;
     background: linear-gradient(180deg, #000000 99.99%, #000613 100%);
     font-family: 'Poppins';
     font-style: normal;
@@ -23,6 +23,11 @@
     color: #FFFFFF;
     cursor: pointer;
     margin: 0px 10px;
+}
+.login-Btn:hover{
+    border: 3px solid greenyellow;
+    font-size:18px ;
+    border-radius: 20px;
 }
 @media screen and (max-width:480px) {
     .navbar-btn{

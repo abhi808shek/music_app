@@ -18,7 +18,6 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/loginpage" element={<Loginpage />} />
-          <Route exact path="/Loginpage" element={<Loginpage />} />
           <Route exact path="/album" element={<Albumpage />} />
           <Route exact path="/likedpage" element={<Likedpage />} />
         </Routes>
