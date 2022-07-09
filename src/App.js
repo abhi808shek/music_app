@@ -3,6 +3,7 @@ import Sidebar from "./Components/Sidebar/Sidebar";
 import Footer from "./Components/Footer/Footer";
 import Albumpage from "./Components/Album/Albumpage";
 import Likedpage from "./Components/Likedpage/Likedpage";
+import Homepage from "./Components/Homepage/Homepage";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
           <Route exact path="/likedpage" element={<Likedpage />} />
         </Routes>
       </div>
-      {/* <Likedpage /> */}
+      <Homepage />
       <Footer />
     </>
   );
