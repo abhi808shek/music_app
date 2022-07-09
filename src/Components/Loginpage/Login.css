@@ -3,8 +3,8 @@
 
 .login-container {
     /* border: 2px solid red; */
-    width: 100%;
-    height: 100vh;
+    width: 80%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,6 +13,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: auto;
 }
 
 .login-heading {
@@ -29,7 +30,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
     width: 926px;
-    height: 500px;
+    height: 390px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,7 +81,14 @@
 
 @media screen and (max-width:1440px) {
     .login-card-container {
-        height: 425px;
+        height: 340px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .login-card-container {
+        height: 340px;
+        width: 765px;
     }
 }
 
@@ -92,38 +100,51 @@
 
     .login-heading {
         margin-top: 3rem;
+        font-size: 100px;
     }
 
     .login-card-container {
         position: fixed;
-        bottom: 0px;
-        width: 770px;
+        bottom: 60px;
+        width: 614px;
         border-radius: 40px 40px 0px 0px;
+    }
+    
+    .login-btn1 {
+        width: 525px;
+        height: 50px;
+    }
+    .login-btn2 {
+        width: 525px;
+        height: 50px;
     }
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:540px) {
+    .login-container {
+        width: 65%;
+    }
     .login-heading {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .login-card-container {
-        /* width: 375px; */
+        width: 208px;
         height: 410px;
     }
 
     .login-btn1 {
-        width: 254px;
+        width: 190px;
         height: 34px;
-        font-size: 10px;
+        font-size: 7px;
         background-size: 20px 21px;
         background-position: 10px;    
     }
 
     .login-btn2 {
-        width: 254px;
+        width: 190px;
         height: 34px;
-        font-size: 10px;
+        font-size: 7px;
         background-size: 23px 21px;
         background-position: 10px;    
     }
