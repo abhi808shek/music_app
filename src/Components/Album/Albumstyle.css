@@ -2,8 +2,9 @@
 
 .album-container {
     background-color: rgb(48, 47, 49);
-    width: 100%;
+    width: 80%;
     padding-bottom: 5rem;
+    margin-left: auto;
 }
 
 .album-container1 {
@@ -36,6 +37,10 @@
 @media screen and (max-width:540px) {
     .album-heading {
         font-size: 20px;
+    }
+    .album-container {
+        width: 65%;
+        margin-left: auto;
     }
     .album-container2 {
         padding: unset;

@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
+.liked-container {
+    background-color: rgb(48, 47, 49);
+    width: 80%;
+    margin-left: auto;
+    padding-bottom: 5rem;
+}
+
 .liked-container1 {
     /* border: 2px solid red; */
     display: flex;
@@ -47,6 +54,9 @@
 }
 
 @media screen and (max-width:540px) {
+    .liked-container {
+        width: 65%;
+    }
     .liked-container1 {
         height: 15vh;
     }

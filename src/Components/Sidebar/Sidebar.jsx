@@ -16,7 +16,7 @@ const Sidebar = () => {
                 <div className="sidebar-container1">
                     <div className="sidebar-content">
                         <img src={Vector} alt="" className="sidebar-img2" />
-                        <p className="sidebar-txt"><NavLink to="/home">Home</NavLink></p>
+                        <p className="sidebar-txt"><NavLink to="/">Home</NavLink></p>
                     </div>
                     <div className="sidebar-content">
                         <img src={musicalbum1} alt="" className="sidebar-img2" />
@@ -24,7 +24,7 @@ const Sidebar = () => {
                     </div>
                     <div className="sidebar-content">
                         <img src={Vector1} alt="" className="sidebar-img2" />
-                        <p className="sidebar-txt"><NavLink to="/content/likedpage">Liked songs</NavLink></p>
+                        <p className="sidebar-txt"><NavLink to="/likedpage">Liked songs</NavLink></p>
                     </div>
                 </div>
             </div>
