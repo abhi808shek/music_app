@@ -10,7 +10,7 @@
 .sidebar{
     background-color: red;
     width: 20%;
-    height: 80vh;
+    /* height: 80vh; */
 }
 .album{
     background-color: rgb(44, 44, 55);
