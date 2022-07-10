@@ -2,16 +2,12 @@
     /* border: 2px solid red; */
     background-color: rgb(48, 47, 49);
     width: 80%;
-    height: 80vh;
     margin-left: auto;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 6rem;
 }
 
-.home-container1 {
-    /* border: 2px solid black; */
-}
 
 .home-container2 {
     /* border: 2px solid blue; */
@@ -49,6 +45,9 @@
     justify-content: end;
     width: 210px;
     height: 220px;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 15px;
 }
 
 .home-title {
