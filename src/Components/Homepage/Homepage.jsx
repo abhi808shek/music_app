@@ -1,9 +1,18 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Home.css'
 import HomePageCard from './HomePageCard/HomePageCard'
+import {useNavigate} from "react-router-dom"
 
-const Homepage = () => {
+
+const Homepage = ({auth}) => {
+    const navigate = useNavigate()
     const items = [1, 2, 3, 4, 5, 6]
+    useEffect(() => {
+      if (!auth) {
+        navigate("/loginpage")
+      }
+    }, [auth])
+    
     return (
         <>
             <div className="home-container">
@@ -12,7 +21,7 @@ const Homepage = () => {
                         <h1 className="home-heading">Made  For You</h1>
                     </div>
                     <div className="home-card-container">
-                        {items.map((items) => <HomePageCard />)}
+                    {items.map((items,index) => <HomePageCard key={index}/>)}
                     </div>
                 </div>
                 <div className="home-container1">
@@ -20,7 +29,7 @@ const Homepage = () => {
                         <h1 className="home-heading">Today’s Hit</h1>
                     </div>
                     <div className="home-card-container">
-                        {items.map((items) => <HomePageCard />)}
+                        {items.map((items,index) => <HomePageCard key={index}/>)}
                     </div>
                 </div>
             </div>

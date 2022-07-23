@@ -2,7 +2,7 @@ import React from 'react'
 import "./albumCard.css"
 
 
-const AlbumCard = ({Rectangle74}) => {
+const AlbumCard = ({Rectangle74}) => { 
   return (
       <div className="album-card-container">
             <img src={Rectangle74} alt="" className="album-img" />

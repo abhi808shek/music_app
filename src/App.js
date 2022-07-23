@@ -8,22 +8,25 @@ import Loginpage from "./Components/Loginpage/Loginpage";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
+  const auth = localStorage.getItem("accessToken");
+  const name = localStorage.getItem("name");
+
   return (
     <>
-      <Navbar />
+      <Navbar auth={auth} name={name}/>
       <div className="sidebar">
         <Sidebar />
       </div>
       <div>
         <Routes>
-          <Route exact path="/" element={<Homepage />} />
-          <Route exact path="/loginpage" element={<Loginpage />} />
-          <Route exact path="/album" element={<Albumpage />} />
-          <Route exact path="/likedpage" element={<Likedpage />} />
+          <Route exact path="/" element={<Homepage auth={auth} />} />
+          <Route exact path="/loginpage" element={<Loginpage auth={auth}/>} />
+          <Route exact path="/album" element={<Albumpage auth={auth}/>} />
+          <Route exact path="/likedpage" element={<Likedpage auth={auth}/>} />
         </Routes>
       </div>
       {/* <Homepage /> */}
-      <Footer />
+      <Footer auth={auth}/>
     </>
   );
 }
