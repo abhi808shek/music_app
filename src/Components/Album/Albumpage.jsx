@@ -24,7 +24,7 @@ const Album = ({auth}) => {
           <h1 className="album-heading">Your Albums</h1>
         </div>
         <div className="album-container2">
-          {album.map((albumCards,index) => <AlbumCard Rectangle74={Rectangle74} key={index}/>)}
+          {items.map((albumCards,index) => <AlbumCard Rectangle74={Rectangle74} key={index}/>)}
         </div>
       </div>
     </>

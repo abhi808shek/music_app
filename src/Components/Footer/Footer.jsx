@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import image7 from "./image7.png";
-import pause1 from "./pause1.png";
+import pause from "./pause.png";
 import heart3 from "./heart3.png";
 import Foot from "./Foot.css";
 
@@ -24,8 +24,8 @@ const Footer = ({ auth }) => {
               <h1 className="footer-txt">Blinding Lights</h1>
             </div>
             <div className="footer-container2">
-             {control ? <img src={heart3} alt="" className="footer-like-icon" onClick={controlBtn}/> : <img src={pause1} alt="" className="footer-pause-icon" onClick={controlBtn}/>}
-             {favorite ? <img src={heart3} alt="" className="footer-like-icon" onClick={favIcon}/> : <img src={pause1} alt="" className="footer-pause-icon" onClick={favIcon}/>}
+             {control ? <img src={heart3} alt="" className="footer-like-icon" onClick={controlBtn}/> : <img src={pause} alt="" className="footer-pause-icon" onClick={controlBtn}/>}
+             {favorite ? <img src={heart3} alt="" className="footer-like-icon" onClick={favIcon}/> : <img src={pause} alt="" className="footer-pause-icon" onClick={favIcon}/>}
            
             </div>
           </div>

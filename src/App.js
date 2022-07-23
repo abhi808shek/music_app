@@ -23,6 +23,9 @@ function App() {
           <Route exact path="/loginpage" element={<Loginpage auth={auth}/>} />
           <Route exact path="/album" element={<Albumpage auth={auth}/>} />
           <Route exact path="/likedpage" element={<Likedpage auth={auth}/>} />
+          {/* <Route exact path="/mixedsong" element={<Likedpage auth={auth}/>} /> */}
+          {/* <Route exact path="/album/byartist" element={<Likedpage auth={auth}/>} /> */}
+
         </Routes>
       </div>
       {/* <Homepage /> */}
