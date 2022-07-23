@@ -1,7 +1,11 @@
 import React,{useState} from "react";
 import image7 from "./image7.png";
 import pause from "./pause.png";
-import heart3 from "./heart3.png";
+import unliked from "./unliked.png";
+import liked from "./liked.png";
+import play from "./play.png";
+
+
 import Foot from "./Foot.css";
 
 const Footer = ({ auth }) => {
@@ -24,8 +28,8 @@ const Footer = ({ auth }) => {
               <h1 className="footer-txt">Blinding Lights</h1>
             </div>
             <div className="footer-container2">
-             {control ? <img src={heart3} alt="" className="footer-like-icon" onClick={controlBtn}/> : <img src={pause} alt="" className="footer-pause-icon" onClick={controlBtn}/>}
-             {favorite ? <img src={heart3} alt="" className="footer-like-icon" onClick={favIcon}/> : <img src={pause} alt="" className="footer-pause-icon" onClick={favIcon}/>}
+             {control ? <img src={play} alt="" className="footer-like-icon" onClick={controlBtn}/> : <img src={pause} alt="" className="footer-pause-icon" onClick={controlBtn}/>}
+             {favorite ? <img src={liked} alt="" className="footer-like-icon" onClick={favIcon}/> : <img src={unliked} alt="" className="footer-pause-icon" onClick={favIcon}/>}
            
             </div>
           </div>
