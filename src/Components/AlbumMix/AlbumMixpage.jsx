@@ -22,7 +22,7 @@ const albummix = ({auth}) => {
           <img src={image18} alt="" className="albummix-play-img" />
         </div>
         <div className="albummix-container2">
-      {items.map((Cards,index)=><albummixCard Rectangle62={Rectangle62} Vector={Vector} key={index}/>)}
+      {items.map((Cards,index)=><AlbumMixCard Rectangle62={Rectangle62} Vector={Vector} key={index}/>)}
     </div>
     </div>
     </>
