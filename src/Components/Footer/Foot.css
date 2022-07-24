@@ -41,10 +41,10 @@
     justify-content: flex-end;
 }
 .footer-pause-icon{
-    margin-right: 30px;
+    margin-right: 40px;
 }
-.footer-like-icon{
-    margin-right: 100px;
+.footer-like-icon {
+    margin-right: 40px;
 }
 @media screen and (max-width:768px) {
     .footer-icon {

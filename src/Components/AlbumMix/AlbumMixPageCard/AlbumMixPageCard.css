@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+.albummix-img-container1 {
+    /* border: 2px solid yellow; */
+    width: 72px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.albummix-txt {
+    /* border: 2px solid yellow; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.albummix-para1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+
+}
+
+.albummix-para2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: #787272;
+
+}
+
+.albummix-like {
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.albummix-like-icon {
+    width: 30px;
+    height: 30px;
+}
+.albummix-card-container{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.albummix-mixe{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+}
+
+@media screen and (max-width:1024px) {
+    .albummix-txt {
+        width: 30%;
+    }
+
+    .albummix-like {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .albummix-img-container1 {
+        width: 39px;
+        height: 37px;
+    }
+    .albummix-txt{
+        width: 100%;
+    }
+    .albummix-para1{
+        font-size: 9px;
+    }
+    .albummix-like-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
