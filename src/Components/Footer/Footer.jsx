@@ -28,8 +28,8 @@ const Footer = ({ auth }) => {
               <h1 className="footer-txt">Blinding Lights</h1>
             </div>
             <div className="footer-container2">
-             {control ? <img src={play} alt="" className="footer-like-icon" onClick={controlBtn}/> : <img src={pause} alt="" className="footer-pause-icon" onClick={controlBtn}/>}
-             {favorite ? <img src={liked} alt="" className="footer-like-icon" onClick={favIcon}/> : <img src={unliked} alt="" className="footer-pause-icon" onClick={favIcon}/>}
+             {control ? <img src={play} alt="" className="footer-pause-icon" onClick={controlBtn}/> : <img src={pause} alt="" className="footer-pause-icon" onClick={controlBtn}/>}
+             {favorite ? <img src={liked} alt="" className="footer-like-icon" onClick={favIcon}/> : <img src={unliked} alt="" className="footer-like-icon" onClick={favIcon}/>}
            
             </div>
           </div>

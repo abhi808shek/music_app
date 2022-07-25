@@ -72,6 +72,8 @@
     }
     .footer-pause-icon {
         margin-right: 20px;
+        width: 30px;
+        height: 30px;
     }
     .footer-like-icon {
         width: 20px;
