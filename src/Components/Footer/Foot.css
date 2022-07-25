@@ -53,8 +53,13 @@
         margin-right: 15px;
     }
     .footer-pause-icon {
-        width: 30px;
-        height: 30px;
+        width: 45px;
+        height: 45px;
+    }
+    .footer-play-icon {
+        margin-right: 32px;
+        width: 60px;
+        height: 60px;
     }
     .footer-like-icon {
         width: 20px;
