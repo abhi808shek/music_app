@@ -2,7 +2,7 @@ import React,{useEffect} from 'react'
 import './Home.css'
 import HomePageCard from './HomePageCard/HomePageCard'
 import {useNavigate} from "react-router-dom"
-// import homeList from "./homeList"
+import homeList from "./homeList"
 
 const Homepage = ({auth}) => {
     const navigate = useNavigate();
@@ -21,7 +21,7 @@ const Homepage = ({auth}) => {
                         <h1 className="home-heading">Made  For You</h1>
                     </div>
                     <div className="home-card-container">
-                    {items.map((items,index) => <HomePageCard key={index}/>)}
+                    {homeList.map((items,index) => <HomePageCard key={index} items={items}/>)}
                     </div>
                 </div>
                 {/* <div className="home-container1">

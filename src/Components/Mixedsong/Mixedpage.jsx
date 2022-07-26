@@ -4,15 +4,17 @@ import Rectangle62 from './Rectangle62.png'
 import Vector from './Vector.png'
 import './Mixed.css'
 import MixedPageCard from './MixedPageCard/MixedPageCard'
-import {useNavigate} from "react-router-dom"
+import { useNavigate } from 'react-router-dom'
+import homeList from '../Homepage/homeList'
 
-const mixedpage = ({auth}) => {
-  const navigate = useNavigate()
+
+const Mixedpage = ({auth}) => {
   const items = [1,2,3,4,5,6,7,8.9,10]
+  const navigate = useNavigate()
   useEffect(() => {
-    if (!auth) {
-      navigate("/loginpage")
-    }
+   
+    !auth && navigate("/loginpage")
+   
   }, [auth])
   return (
     <>
@@ -22,11 +24,11 @@ const mixedpage = ({auth}) => {
           <img src={image18} alt="" className="mixed-play-img" />
         </div>
         <div className="mixed-container2">
-      {items.map((Cards,index)=><MixedPageCard Rectangle62={Rectangle62} Vector={Vector} key={index}/>)}
+      {homeList.map((items,index)=><MixedPageCard items={items} Rectangle62={Rectangle62} Vector={Vector} key={index}/>)}
     </div>
     </div>
     </>
   )
 }
 
-export default mixedpage;
+export default Mixedpage;

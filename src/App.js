@@ -26,12 +26,12 @@ function App() {
       </div>
       <div>
         <Routes>
-          <Route exact path="/" element={<Homepage auth={auth} />} />
-          <Route exact path="/loginpage" element={<Loginpage auth={auth}/>} />
-          <Route exact path="/album" element={<Albumpage auth={auth}/>} />
-          <Route exact path="/likedpage" element={<Likedpage auth={auth}/>} />
-          <Route exact path="/mixedpage" element={<Mixedpage auth={auth}/>} />
-          <Route exact path="/albummixpage" element={<AlbumMixpage auth={auth}/>} />
+          <Route exact path="/" element={<Homepage auth={authToken} />} />
+          <Route exact path="/loginpage" element={<Loginpage auth={authToken} setAuthToken={setAuthToken}/> } />
+          <Route exact path="/album" element={<Albumpage auth={authToken}/>} />
+          <Route exact path="/likedpage" element={<Likedpage auth={authToken}/>} />
+          <Route exact path="/mixedpage" element={<Mixedpage auth={authToken}/>} />
+          <Route exact path="/albummixpage" element={<AlbumMixpage auth={authToken}/>} />
 
         </Routes>
       </div>
