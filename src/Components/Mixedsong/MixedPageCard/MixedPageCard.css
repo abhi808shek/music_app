@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+.mixed-img-container1 {
+    /* border: 2px solid yellow; */
+    width: 72px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mixed-txt {
+    /* border: 2px solid yellow; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.mixed-para1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+
+}
+
+.mixed-para2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: #787272;
+
+}
+
+.mixed-like {
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.mixed-like-icon {
+    width: 30px;
+    height: 30px;
+}
+.mixed-card-container{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.mixed-mixe{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+}
+
+@media screen and (max-width:1024px) {
+    .mixed-txt {
+        width: 30%;
+    }
+
+    .mixed-like {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .mixed-img-container1 {
+        width: 39px;
+        height: 37px;
+    }
+    .mixed-txt{
+        width: 100%;
+    }
+    .mixed-para1{
+        font-size: 9px;
+    }
+    .mixed-like-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
