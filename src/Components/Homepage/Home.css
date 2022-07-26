@@ -36,7 +36,7 @@
 .home-card-container1 {
     /* border: 2px solid yellow; */
     border-radius: 14px;
-    background-image: url('./Rectangle9.png');
+    /* background-image: url('./asset/images/Rectangle9.png'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@
 .home-card-container2 {
     /* border: 2px solid yellow; */
     border-radius: 14px;
-    background-image: url('./Rectangle9.png');
+    /* background-image: url('./assets/images/Rectangle9.png'); */
     background-position: center;
     background-repeat: no-repeat;
     display: flex;

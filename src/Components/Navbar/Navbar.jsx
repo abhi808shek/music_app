@@ -1,14 +1,19 @@
-import React from "react";
-import Nav from "./Nav.css";
+import React, { useEffect } from "react";
+import "./Nav.css";
 import { useNavigate } from "react-router-dom";
-
-const Navbar = ({ auth, name }) => {
+const Navbar = ({ auth, name,setAuthToken }) => {
   const navigate = useNavigate();
 
+  useEffect(() => {
+    if (!auth) {
+      navigate("/loginpage");
+    }
+  }, [auth]);
   const deleteLocalStorage = () => {
-    //   console.log("CLicked");
-    // localStorage.clear();
-    // navigate("/login");
+    localStorage.removeItem("name");
+    localStorage.removeItem("accessToken");
+    setAuthToken(null)
+    navigate("/")
   };
 
   return (
