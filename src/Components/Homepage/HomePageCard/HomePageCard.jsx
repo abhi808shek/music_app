@@ -5,7 +5,7 @@ const HomePageCard = ({items}) => {
   return (
         <NavLink to={items.url}>
     <div className="home-card-container1">
-        <img src={items.image1} alt="" />
+        <img src={items.image1} alt="" class="album-img"/>
         <h1 className="home-title">{items.title}</h1>
         <p className="home-txt">
           {items.description}
