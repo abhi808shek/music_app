@@ -14,7 +14,7 @@
 
 .navbar-btn {
     border: none;
-    width: 125px;
+    width: 170px;
     background: linear-gradient(180deg, #000000 99.99%, #000613 100%);
     font-family: 'Poppins';
     font-style: normal;
@@ -31,7 +31,7 @@
 }
 @media screen and (max-width:480px) {
     .navbar-btn{
-        width: 70px;
+        width: 110px;
         font-size: 10px;
         margin: 0px 5px;
     }
