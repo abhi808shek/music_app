@@ -82,41 +82,70 @@ const homeList = [
     description: "Mehabooba, Chidiya, Tera Zikr, Kyun Judaa",
 
     image1: Mehaboobaa,
-   
-    url: "/mixedpage1"},
-    
-   
+    image2: Chidiyaa,
+    image3: teraZikrr,
+    image4: kyunJudaaa,
+
+    url: "/mixedpage",
+    song1: Mehbooba,
+    Song2: Chidiya,
+    song3: teraZikr,
+    song4: kyunJudaa,
+  },
   {
     title: "Mix Song 2",
     description: "Chaand Baaliyan, Tere Bin, Dariya, Mann Mera",
 
     image1: chaandBaaliyann,
-    
-
-    url: "/mixedpage2"
-    
+    image2: tereBinn,
+    image3: Dariyaa,
+    image4: mannMeraa,
+    url: "/mixedpage",
+    song1: chaandBaaliyan,
+    Song2: tereBin,
+    song3: Dariya,
+    song4: mannMera,
   },
   {
     title: "Mix Song 3",
     description: "Jahan Tum Ho, Beliya, Do Gallan, Kabhi Kabhi Aditi",
 
     image1: jahanTumhoo,
-        url: "/mixedpage3"
+    image2: Beliyaa,
+    image3: doGallann,
+    image4: kabhiKabhiaditii,
+
+    url: "/mixedpage",
+    song1: jahanTumho,
+    Song2: Beliya,
+    song3: doGallan,
+    song4: kabhiKabhiaditi,
   },
   {
     title: "Mix Song 4",
     description: "Surma, Libaas, Waalian, Khaab",
 
     image1: Surma,
-    url: "/mixedpage4"
+    image2: Libaas,
+    image3: Wallian,
+    image4: Khaab,
+
+    url: "/mixedpage",
+    song1: Surma,
+    Song2: Libaas,
+    song3: Waalian,
+    song4: Khaab,
   },
   {
     title: "Mix Song 5",
     description: "Closer, Love Me Like You Do",
 
     image1: Closerr,
+    image2: lovemeLikeyoudoo,
 
-    url: "/mixedpage5"
+    url: "/mixedpage",
+    song1: Closer,
+    Song2: lovemeLikeyoudo,
   },
   {
     title: "Mix Song 6",
@@ -124,23 +153,46 @@ const homeList = [
       "Pasoori, Maana Ke Hum Yaar Nahi, Aankhon ke darmiyan, Shiddat, Maiyya Mainu",
 
     image1: Pasoorii,
+    image2: manakeHumyaarnahii,
+    image3: aankhonkEdarmiyann,
+    image4: Shiddatt,
+    image5: maiyyAmainuu,
 
-    url: "/mixedpage6"
+    url: "/mixedpage",
+    song1: Pasoori,
+    Song2: manakeHumyaarnahi,
+    song3: aankhonkEdarmiyan,
+    song4: Shiddat,
+    song5: maiyyAmainu,
   },
   {
     title: "Mix Song 7",
     description: "Galliyan, Uska hi Banana, Baliye Re, Bekhayali",
 
     image1: Galliyann,
+    image2: uskahiBananaa,
+    image3: baliYeree,
+    image4: Bekhayalii,
 
-    url: "/mixedpage7"
+    url: "/mixedpage",
+    song1: Galliyan,
+    Song2: uskahiBanana,
+    song3: baliYere,
+    song4: Bekhayali,
   },
   {
     title: "Mix Song 8",
     description: "Kaise hua, Jug Jug Jeeve, Jind Meriye, Awari",
     image1: Bekhayalii,
+    image2: Shiddatt,
+    image3: baliYeree,
+    image4: Galliyann,
 
-    url: "/mixedpage8"
+    url: "/mixedpage",
+    song1: kaisEhua,
+    Song2: jugjuGjeeve,
+    song3: jindMeriye,
+    song4: Awari,
   },
 ];
 export default homeList;
