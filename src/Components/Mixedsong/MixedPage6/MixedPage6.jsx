@@ -7,7 +7,7 @@ import MixedPageCard from "../MixedPageCard/MixedPageCard";
 import { useNavigate } from "react-router-dom";
 import homeList from "../../Homepage/homeList";
 
-const Mixedpage1 = ({ auth }) => {
+const Mixedpage6 = ({ auth }) => {
   const items = [1, 2, 3, 4, 5, 6, 7, 8,9, 10];
   const navigate = useNavigate();
   useEffect(() => {
@@ -35,4 +35,4 @@ const Mixedpage1 = ({ auth }) => {
   );
 };
 
-export default Mixedpage1;
+export default Mixedpage6;
