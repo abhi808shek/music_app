@@ -6,7 +6,7 @@ import liked from "./liked.png";
 import play from "./play.png";
 
 
-import Foot from "./Foot.css";
+import "./Foot.css";
 
 const Footer = ({ auth }) => {
   const [favorite, setFavorite] = useState(false)

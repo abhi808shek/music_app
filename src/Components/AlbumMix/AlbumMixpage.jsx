@@ -4,16 +4,14 @@ import Rectangle62 from './Rectangle62.png'
 import Vector from './Vector.png'
 import './AlbumMix.css'
 import AlbumMixPageCard from './AlbumMixPageCard/AlbumMixPageCard'
-import {useNavigate} from "react-router-dom"
 
 const albummix = ({auth}) => {
-  const navigate = useNavigate()
   const items = [1,2,3,4,5,6,7,8.9,10]
-  useEffect(() => {
-    if (!auth) {
-      navigate("/loginpage")
-    }
-  }, [auth])
+  // useEffect(() => {
+  //   if (!auth) {
+  //     navigate("/loginpage")
+  //   }
+  // }, [auth])
   return (
     <>
     <div className="albummix-container">
@@ -22,7 +20,7 @@ const albummix = ({auth}) => {
           <img src={image18} alt="" className="albummix-play-img" />
         </div>
         <div className="albummix-container2">
-      {items.map((Cards,index)=><AlbumMixCard Rectangle62={Rectangle62} Vector={Vector} key={index}/>)}
+      {items.map((Cards,index)=><AlbumMixPageCard Rectangle62={Rectangle62} Vector={Vector} key={index}/>)}
     </div>
     </div>
     </>

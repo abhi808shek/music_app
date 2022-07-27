@@ -4,7 +4,7 @@ import {useNavigate} from "react-router-dom"
 import {signInWithGoogle} from "../GoogleLogin/GoogleLogin"
 import {signInWithFacebook} from "../FacebookLogin/FacebookLogin"
 
-const Loginpage = ({auth}) => {
+const Loginpage = ({auth,setAuthToken}) => {
   const navigate = useNavigate()
   const items = [1, 2, 3, 4, 5, 6]
   useEffect(() => {
@@ -20,7 +20,10 @@ const Loginpage = ({auth}) => {
         <div className="login-card-container">
             <h1 className="login-card-heading">Login</h1>
             <button className="login-btn1" onClick={signInWithFacebook}>Continue with Facebook</button>
-            <button className="login-btn2" onClick={signInWithGoogle}>Continue with Google Account</button>
+            <button className="login-btn2" onClick={()=>{
+              signInWithGoogle(setAuthToken)
+              navigate("/")
+            }}>Continue with Google Account</button>
         </div>
     </div>
     </>
