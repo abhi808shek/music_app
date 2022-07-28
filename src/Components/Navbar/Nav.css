@@ -23,6 +23,7 @@
     color: #FFFFFF;
     cursor: pointer;
     margin: 0px 10px;
+    text-align: center;
 }
 .login-Btn:hover{
     border: 3px solid greenyellow;
