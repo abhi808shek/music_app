@@ -21,12 +21,15 @@
     font-weight: 500;
     font-size: 16px;
     color: #FFFFFF;
-    cursor: pointer;
     margin: 0px 10px;
     text-align: center;
 }
+
+.login-Btn{
+    width: 100px;
+}
+
 .login-Btn:hover{
-    border: 3px solid greenyellow;
     font-size:18px ;
     border-radius: 20px;
 }
